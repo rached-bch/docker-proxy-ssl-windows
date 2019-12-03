@@ -1,0 +1,16 @@
+{
+    "name": "test-app",
+    "version": "0.1.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon ./index.js",
+        "start": "node ./index.js"
+    },
+    "dependencies": {
+        "create-ssl-certificate": "^3.0.0",
+        "express": "^4.16.3"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.3"
+    }
+}
